@@ -1,44 +1,15 @@
-
-nav {
-      background-color: black;
-      float: left;
-    width: 100%;
-   }
-nav li {
-      list-style: none;
-      text-align: center;
-      display: inline-block;  
-      width: 80px;
+h1{
+	font-family: arial;
+    font-size: 30px;
+    color: #222
 }
-nav li a {
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
-    text-decoration: none;
-    color: white;
-    display: block;
+p{
+	font-family: Comic Sans MS;
+    font-size: 18px;
+    color: #222;
 }
-nav li a:hover {
-    background-color: white;
-    color: black;
-    transition: .3s;
-        
-}
-.active {
-    background: white;
-    color: black;
-    border: .2px solid black;
-}
-/*main*/
-.courses {
-    width: 30%;
-    margin: 10px;
-    background-color: black;
-    color:white;
-    font-family:monospace
-}
-.courses h3{
-    text-align: center;
-    margin-bottom: 0px;
-    
+img{
+	height: 500px;
+	width: 650px;
+	display: cover;
 }
